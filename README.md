@@ -2,11 +2,11 @@
 
 
 
-##Enfoque
+## Enfoque
 Nuestro enfoque en nuestra solucion para este reto, el cual consiste en analizar por medio de computer vision los partidos de la **Copa Futbot 2026**, es poder identificar la informacion y acontecimientos mas importantes para un facil seguimiento y analisis del partido, tales como los mencionados en [Outputs](#Outputs).
 
 
-##Outputs
+## Outputs
 - Contador de goles de ambos equipos
 - Cronometro de un robot fuera de la cancha debido a un penalti por equipo
 - Segmentacion y identificacion de robots
@@ -17,13 +17,13 @@ Nuestro enfoque en nuestra solucion para este reto, el cual consiste en analizar
 - Heatmap de la posicion y movimiento de los robots atravez del partido
 
 
-##Requisitos de Hardware y Software (local, NO RECOMENDADO)
+## Requisitos de Hardware y Software (local, NO RECOMENDADO)
 -Windows 10 o 11
 -MacOS 13 en adelante
 -Linux (recomendado)
 -Acceso a Internet
 
-##Instalaciones y Reproduccion
+## Instalaciones y Reproduccion
 
 Debido al gran gasto computacional que el modelo SAM3 genera nuestro proyecto lo desarollamos y probamos en la plataforma **Google Collab**, con esto nos aseguramos que cualquier persona sin importar su dispositivo de computo probar nuestro Proyecto.
 

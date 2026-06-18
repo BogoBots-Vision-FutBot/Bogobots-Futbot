@@ -8,7 +8,7 @@ Nuestro enfoque en nuestra solucion para este reto, consiste en analizar por med
 
 ## Arquitectura del proyecto
 
-Nuestro proyecto procesa un video frame por frame para poder idnetificar todos los elementos y inputs que necesitamos para que poder regresar todos los outputs mencionados en [Outputs](#Outputs), a continuacion se presenta el pipeline que realiza nuestro proyecto por frame.
+Nuestro proyecto procesa un video frame por frame para poder identificar todos los inputs que necesitamos para poder regresar todos los outpus mencionados en [Outputs](#Outputs), a continuacion se presenta el pipeline que realiza nuestro proyecto frame por frame.
 
 
 ### Pipeline
@@ -24,14 +24,15 @@ Nuestro proyecto procesa un video frame por frame para poder idnetificar todos l
 - Identificacion de la pelota con las que se hace puntaje
 - Homografia del partido incluyendo a los robots y la pelota
 - Contador de colisiones
-- Heatmap de la posicion y movimiento de los robots atravez del partido
+- Heatmap de la posicion y movimiento de los robots atraves del partido
 
 
 ## Requisitos de Hardware y Software
--Windows 10 o 11
--MacOS 13 en adelante
--Linux (recomendado)
--Acceso a Internet
+- Windows 10 o 11
+- MacOS 13 en adelante
+- Linux (recomendado)
+- Acceso a Internet
+- Google Collab
 
 ## Instalaciones y Reproduccion
 

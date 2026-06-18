@@ -18,31 +18,31 @@ Nuestro proyecto procesa un video frame por frame para poder identificar todos l
 A continuacion se presentan las subdivisiones del pipeline para mayor entendimiento y explicacion.
 
 ### Transposición de frame
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/prepocesado.png?raw=true" width="400" height="1000">
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/ejemplo_1.png?raw=true" width="300">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/prepocesado.png?raw=true">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/ejemplo_1.png?raw=true" >
 
 ### Detecciones (Robots)
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Etapa%20de%20Detecci%C3%B3n%20e%20Identificaci%C3%B3n%20de%20Equipos.png?raw=true" width="300">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Etapa%20de%20Detecci%C3%B3n%20e%20Identificaci%C3%B3n%20de%20Equipos.png?raw=true" >
 
 Para las porterias simplemente usamos el prompt "yellow rectangle" y "blue rectangle", y las detecciones las indexamos a Bytetracker
 
 #### Detecciones (Pelota)
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/ball.png?raw=true" width="300">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/ball.png?raw=true" >
 
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/robot_%20and_%20ball.gif?raw=true" width="300">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/robot_%20and_%20ball.gif?raw=true">
 
 ### Goles
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/goles.png?raw=true" width="300">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/goles.png?raw=true">
 
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/ejemplo%20goles.gif?raw=true" width="300">
 
 ### Penaltis
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/penaltis_logica.png?raw=true" width="300">
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/penaltis_ejemplos.gif?raw=true" width="300">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/penaltis_logica.png?raw=true">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/penaltis_ejemplos.gif?raw=true">
 
 ### Generacion de mapa tactico
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Generaci%C3%B3n%20de%20Mapa%20T%C3%A1ctico.png?raw=true" width="300">
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/homografia.gif?raw=true" width="300">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/homografia.gif?raw=true">
 
 ### Mapa de Calor y Coliciónes
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Detecci%C3%B3n%20de%20Colisiones%20y%20Mapa%20de%20Calor.png?raw=true" width="300">

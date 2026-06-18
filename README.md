@@ -22,7 +22,7 @@ A continuacion se presentan las subdivisiones del pipeline para mayor entendimie
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/ejemplo_1.png?raw=true" >
 
 ### Detecciones (Robots)
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Etapa%20de%20Detecci%C3%B3n%20e%20Identificaci%C3%B3n%20de%20Equipos.png?raw=true" >
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Etapa%20de%20Detecci%C3%B3n%20e%20Identificaci%C3%B3n%20de%20Equipos.png?raw=true" height=300 >
 
 Para las porterias simplemente usamos el prompt "yellow rectangle" y "blue rectangle", y las detecciones las indexamos a Bytetracker
 

@@ -77,7 +77,7 @@ Mete este archivo en la seccion "Mi Unidad" de tu Drive
 
 9. Abrir y configurar el notebook
 En el panel izquierdo de Colab ve a:
-Archivos -- /content/drive/MyDrive/tu-repo/main.ipynb
+Archivos -- /content/drive/MyDrive/BOGOBOTS_v3.ipynb
 Haz doble clic para abrirlo.
 
 Localiza la siguiente variable y cámbiala al nombre de tu archivo de video:

@@ -3,7 +3,17 @@
 
 
 ## Enfoque
-Nuestro enfoque en nuestra solucion para este reto, el cual consiste en analizar por medio de computer vision los partidos de la **Copa Futbot 2026**, es poder identificar la informacion y acontecimientos mas importantes para un facil seguimiento y analisis del partido, tales como los mencionados en [Outputs](#Outputs).
+Nuestro enfoque en nuestra solucion para este reto, consiste en analizar por medio de computer vision los partidos de la **Copa Futbot 2026**, es poder identificar la informacion y acontecimientos mas importantes para un facil seguimiento y analisis del partido, tales como los mencionados en [Outputs](#Outputs).
+
+
+## Arquitectura del proyecto
+
+Nuestro proyecto procesa un video frame por frame para poder idnetificar todos los elementos y inputs que necesitamos para que poder regresar todos los outputs mencionados en [Outputs](#Outputs), a continuacion se presenta el pipeline que realiza nuestro proyecto por frame.
+
+
+### Pipeline
+
+
 
 
 ## Outputs
@@ -17,7 +27,7 @@ Nuestro enfoque en nuestra solucion para este reto, el cual consiste en analizar
 - Heatmap de la posicion y movimiento de los robots atravez del partido
 
 
-## Requisitos de Hardware y Software (local, NO RECOMENDADO)
+## Requisitos de Hardware y Software
 -Windows 10 o 11
 -MacOS 13 en adelante
 -Linux (recomendado)
@@ -25,7 +35,7 @@ Nuestro enfoque en nuestra solucion para este reto, el cual consiste en analizar
 
 ## Instalaciones y Reproduccion
 
-Debido al gran gasto computacional que el modelo SAM3 genera nuestro proyecto lo desarollamos y probamos en la plataforma **Google Collab**, con esto nos aseguramos que cualquier persona sin importar su dispositivo de computo probar nuestro Proyecto.
+Debido al gran gasto computacional que el modelo SAM3 genera dentro de nuestro proyecto, lo desarollamos y probamos en la plataforma **Google Collab**, con esto nos aseguramos que cualquier persona sin importar su dispositivo de computo probar nuestro Proyecto.
 
 1. Entra en tu navegador de preferencia
    

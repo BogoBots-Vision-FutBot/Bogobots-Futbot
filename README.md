@@ -15,8 +15,21 @@ Nuestro proyecto procesa un video frame por frame para poder identificar todos l
 
 #### Pipeline principal:
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Pipeline%20Principal%20de%20Procesamiento.png?raw=true" width="300">
+A continuacion se presentan las subdivisiones del pipeline para mayor entendimiento y explicacion.
 
+### Transposición de frame
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/prepocesado.png?raw=true" width="300">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/ejemplo_1.png?raw=true" width="300">
 
+### Detecciones (Robots)
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Etapa%20de%20Detecci%C3%B3n%20e%20Identificaci%C3%B3n%20de%20Equipos.png?raw=true" width="300">
+
+Para las porterias simplemente usamos el prompt "yellow rectangle" y "blue rectangle", y las detecciones las indexamos a Bytetracker
+
+#### Detecciones (Pelota)
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/ball.png?raw=true" width="300">
+
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/robot_%20and_%20ball.gif?raw=true" width="300">
 
 
 ## Outputs

@@ -34,14 +34,19 @@ Para las porterias simplemente usamos el prompt "yellow rectangle" y "blue recta
 ### Goles
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/goles.png?raw=true" width="300">
 
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/ejemplo%20goles.gif?raw=true" width="300">
 ### Penaltis
 
 
 ### Generacion de mapa tactico
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Generaci%C3%B3n%20de%20Mapa%20T%C3%A1ctico.png?raw=true" width="300">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/homografia.gif?raw=true" width="300">
 
 ### Mapa de Calor y Coliciónes
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Detecci%C3%B3n%20de%20Colisiones%20y%20Mapa%20de%20Calor.png?raw=true" width="300">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Border.png?raw=true" width="300">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Contact.png?raw=true" width="300">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Overlap.png?raw=true" width="300">
 
 ## Outputs
 - Contador de goles de ambos equipos
@@ -112,10 +117,3 @@ Localiza la siguiente variable y cámbiala al nombre de tu archivo de video:
 video_path_relative = 'tu_video.mp4'
 ```
 El video que ejecutes debe de estar en "Mi unidad"
-
-
-
-
-
-
-

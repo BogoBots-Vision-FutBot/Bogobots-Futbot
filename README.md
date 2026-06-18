@@ -46,9 +46,15 @@ Para las porterias simplemente usamos el prompt "yellow rectangle" y "blue recta
 
 ### Mapa de Calor y Coliciónes
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Detecci%C3%B3n%20de%20Colisiones%20y%20Mapa%20de%20Calor.png?raw=true" width="300">
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Border.png?raw=true" width="300">
+
+Para las colisiones se guarda un registro cuando un contato entre mascaras cumple ciertas condiciones, estos se dividieron entre overlap y border touch
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Contact.png?raw=true" width="300">
+
+Para detectar overlaps se toman las mascaras y se vuelven arreglos booleanos donde un 1 indica una mascara mientras que el 0 no, se hace una operación para verificar que pixeles se invaden, esto se queda en el registro de colisiones.
+
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Overlap.png?raw=true" width="300">
+Si no hubo overlap se revisa el contacto de bordes, se consigue el borde de cada mascara erosionando las mascara y restandosela a la original, despues se dilatan los bordes con un kernel de 5x5, se agregn pixeles de tolerancia para detectar mascaras que anque no se toquen directamente si estan muy cerca una d ela otra, esto queta en el registro de colisones
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Border.png?raw=true" width="300">
 
 ## Outputs
 - Contador de goles de ambos equipos
@@ -57,7 +63,7 @@ Para las porterias simplemente usamos el prompt "yellow rectangle" y "blue recta
 - Identificador de robots del mismo equipo y de diferente equipo
 - Identificacion de la pelota con las que se hace puntaje
 - Homografia del partido incluyendo a los robots y la pelota
-- Contador de colisiones
+- Contador y registro de colisiones
 - Heatmap de la posicion y movimiento de los robots atraves del partido
 
 

@@ -13,7 +13,7 @@ Nuestro proyecto procesa un video frame por frame para poder identificar todos l
 
 ### Pipeline
 Pipeline principal:
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Pipeline%20Principal%20de%20Procesamiento.png?raw=true" width="400" height="600">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Pipeline%20Principal%20de%20Procesamiento.png?raw=true" width="400" height="1000">
 
 
 

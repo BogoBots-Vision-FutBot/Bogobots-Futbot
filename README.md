@@ -14,11 +14,11 @@ Nuestro proyecto procesa un video frame por frame para poder identificar todos l
 ### Pipeline
 
 #### Pipeline principal:
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Pipeline%20Principal%20de%20Procesamiento.png?raw=true" width="600" height="1000">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Pipeline%20Principal%20de%20Procesamiento.png?raw=true" width="300">
 A continuacion se presentan las subdivisiones del pipeline para mayor entendimiento y explicacion.
 
 ### Transposición de frame
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/prepocesado.png?raw=true" width="300">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/prepocesado.png?raw=true" width="400" height="1000">
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/ejemplo_1.png?raw=true" width="300">
 
 ### Detecciones (Robots)

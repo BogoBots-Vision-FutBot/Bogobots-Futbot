@@ -50,6 +50,8 @@ Para las porterias simplemente usamos el prompt "yellow rectangle" y "blue recta
 
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/ejemplo%20goles.gif?raw=true" width="300">
 
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Goles_graph.jpeg?raw=true" width="500">
+
 ### 5. Penaltis
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/penaltis_logica.png?raw=true">
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/penaltis_ejemplos.gif?raw=true">
@@ -75,7 +77,7 @@ Si no hubo overlap se revisa el contacto de bordes, se consigue el borde de cada
 
 ### 8. Generción de graficas
 
-La ultima celda del colab toma el registro de colisiones generado anteriormente y proyecta los graficos en tres graficas distintas: Una dispersión general de colisiones y dos mapas de calor, uno de overlap y otro de border touch.
+Las ultimas 2 celdas del colab sirven para la generación de graficas, la penultima toma el archivo game_variables y grafica los goles acumuladoes en cada frame, la ultima toma el registro de colisiones generado anteriormente y proyecta los graficos en tres graficas distintas: Una dispersión general de colisiones y dos mapas de calor, uno de overlap y otro de border touch.
 
 ## Outputs
 - Contador de goles de ambos equipos

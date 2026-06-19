@@ -46,7 +46,7 @@ Para las porterias simplemente usamos el prompt "yellow rectangle" y "blue recta
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/robot_%20and_%20ball.gif?raw=true">
 
 ### 4. Goles
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/goles.png?raw=true">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/goles_grande.png?raw=true" width=100% >
 
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/ejemplo%20goles.gif?raw=true" width="300">
 

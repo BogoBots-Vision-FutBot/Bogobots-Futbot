@@ -10,6 +10,10 @@
 
 ## Proyecto: Deteccion y narractiva de TrutleBots en un partido de futbol en vivo.
 
+Video presentacion en YouTube
+[Video presentacion en YouTube](https://www.youtube.com/watch?v=JWTw7fdQiGw)
+
+
 ## Enfoque
 Nuestro enfoque en nuestra solucion para este reto, consiste en analizar por medio de computer vision los partidos de la **Copa Futbot 2026**, es poder identificar la informacion y acontecimientos mas importantes para un facil seguimiento y analisis del partido, tales como los mencionados en [Outputs](#Outputs).
 

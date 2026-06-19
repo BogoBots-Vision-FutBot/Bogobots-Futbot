@@ -32,7 +32,7 @@ A continuacion se presentan las subdivisiones del pipeline para mayor entendimie
 
 ### 1. Transposición de frame
 
-<img src="images/prepocesado.png" alt="Alt text" width="500%">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/prepocesado_grande.png?raw=true" width="500%">
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/ejemplo_1.png?raw=true" width=100% >
 
 ### 2. Detecciones (Robots)

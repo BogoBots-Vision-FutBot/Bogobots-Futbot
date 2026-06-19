@@ -53,7 +53,7 @@ Para las porterias simplemente usamos el prompt "yellow rectangle" y "blue recta
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Goles_graph.jpeg?raw=true" width="500">
 
 ### 5. Penaltis
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/penaltis_logica.png?raw=true">
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/penaltis_test.png?raw=true">
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/penaltis_ejemplos.gif?raw=true">
 
 ### 6. Generacion de mapa tactico

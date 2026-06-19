@@ -69,6 +69,10 @@ Si no hubo overlap se revisa el contacto de bordes, se consigue el borde de cada
 
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Border.png?raw=true" width="600">
 
+### 8. Generción de graficas
+
+La ultima celda del colab toma el registro de colisiones generado anteriormente y proyecta los graficos en tres graficas distintas: Una dispersión general de colisiones y dos mapas de calor, uno de overlap y otro de border touch.
+
 ## Outputs
 - Contador de goles de ambos equipos
 - Cronometro de un robot fuera de la cancha debido a un penalti por equipo
@@ -202,4 +206,16 @@ Al ya tener estos paths listos dale click a la funcion de Run All
 
 Esto generara todos los outputs mostrados en el README
 
-### Importante: Todos estos paths son de nuestro entorno si deseas correrlo te recomendamos usar Google Colab pro y cambiar a los folders que tu desees en tu Google Drive
+### Importante: Todos estos paths son de nuestro entorno si deseas correrlo te recomendamos usar Google Colab pro y cambiar a los folders que tu desees en tu Google Drive. También es importante mencionar que el video usado fue editado eliminando tiempos muertos y acelerando algunas partes para usar menos recursos de GPU durante la ejecución.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT.  
+Consulta el archivo `LICENSE` para más información.
+
+## Créditos
+
+Este proyecto contó con apoyo de herramientas de inteligencia artificial para asistencia en desarrollo y documentación:
+
+- Gemini
+- Claude

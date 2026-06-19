@@ -141,8 +141,11 @@ Si deseas guardar el colab en otro folder  recuerda modificar
 ```
 
 8.Descarga del modelo
+
 Solicita acceso en: https://huggingface.co/facebook/sam3
+
 Descarga el archivo llamado sam3.pt
+
 Mete este archivo en la seccion "Mi Unidad" de tu Drive
 
 Importante: este archivo debe estar en el mismo folder que to archivo de colab
@@ -152,7 +155,7 @@ En el panel izquierdo de Colab ve a:
 Archivos -- /content/drive/MyDrive/BOGOBOTS_v3.ipynb
 Haz doble clic para abrirlo.
 
-### El repositorio contiene el archivo de colab usado.
+### El repositorio contiene el archivo de colab usado (BOGOBOTS_v3).
 Aunquesea aqui esta el link al colab:
 [BOGOBOTS_V3](https://colab.research.google.com/drive/1T-l5v0uGgNeDXuKNAFVvsSOoccASOFLg?usp=sharing)
 

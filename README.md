@@ -41,7 +41,7 @@ A continuacion se presentan las subdivisiones del pipeline para mayor entendimie
 Para las porterias simplemente usamos el prompt "yellow rectangle" y "blue rectangle", y las detecciones las indexamos a Bytetracker
 
 #### 3. Detecciones (Pelota)
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/ball.png?raw=true" >
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/ball_grand_1.png?raw=true" >
 
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/robot_%20and_%20ball.gif?raw=true">
 

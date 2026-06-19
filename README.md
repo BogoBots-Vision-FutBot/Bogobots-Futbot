@@ -162,7 +162,7 @@ Antes que nada en la carpeta vid_img_analisis vamos a agregar imagenes y videos 
 
 Esta variable contiene la imagen del primer frame en el se ajustan los 4 puntos iniciales para la transposicion de la homografia:
 ```python
-image_bgr = cv2.imread("/content/drive/MyDrive/futbot/frame_300.jpg")
+image_bgr = cv2.imread("/content/drive/MyDrive/futbot/frame.jpg")
 ```
 Esta variable contiene el path del video final generado por el colab
 ```python
@@ -170,7 +170,7 @@ OUTPUT_VIDEO = "/content/drive/MyDrive/futbot/IMG_9933_sam_v3.mp4"
 ```
 Esta variable contiene el path del video que se va a ingresar para el analisis y procesamiento.
 ```python
-SOURCE_VIDEO = "/content/drive/MyDrive/futbot/output_resized.mp4"
+SOURCE_VIDEO = "/content/drive/MyDrive/futbot/source_video.mp4"
 ```
 Esta variable contiene el path del archivo .pet del modelo SAM3
 
@@ -191,5 +191,12 @@ Este es el path del archivo de texto que contiene la informacion necesaria para 
 ```python
 OUTPUT_TXT_COLLISIONS = "/content/drive/MyDrive/futbot/all_collision_coordinates.txt
 ```
+
+Al ya tener estos paths listos dale click a la funcion de Run All
+
+<img src="images/run_all.png?raw=true" width="500">
+
+
+Esto generara todos los outputs mostrados en el README
 
 ### Importante: Todos estos paths son de nuestro entorno si deseas correrlo te recomendamos usar Google Colab pro y cambiar a los folders que tu desees en tu Google Drive

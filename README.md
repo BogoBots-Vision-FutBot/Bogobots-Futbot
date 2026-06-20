@@ -13,6 +13,10 @@
 Video presentacion en YouTube
 [Video presentacion en YouTube](https://www.youtube.com/watch?v=JWTw7fdQiGw)
 
+Video reel Instagram
+[Reel Instagram](https://www.instagram.com/reel/DZyGJA5vwcA/?igsh=ZW5sOTI1amY1dXVy)
+
+
 
 ## Enfoque
 Nuestro enfoque en nuestra solucion para este reto, consiste en analizar por medio de computer vision los partidos de la **Copa Futbot 2026**, es poder identificar la informacion y acontecimientos mas importantes para un facil seguimiento y analisis del partido, tales como los mencionados en [Outputs](#Outputs).
@@ -54,6 +58,9 @@ Para las porterias simplemente usamos el prompt "yellow rectangle" y "blue recta
 
 ### 5. Penaltis
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/penaltis_test.png?raw=true">
+
+### Grafica goles durante el partido del video usado por equipo detectado por el codigo
+
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/penaltis_ejemplos.gif?raw=true">
 
 ### 6. Generacion de mapa tactico
@@ -211,6 +218,12 @@ Al ya tener estos paths listos dale click a la funcion de Run All
 
 
 Esto generara todos los outputs mostrados en el README
+
+Este colab tiene la intecion de que se le ingrese un video, se ajusten los puntos iniciales de la transposicion y que la salida sea el video con la segmentacion y homografia, archivos con matricas temporales y generacion de graficas de descripcion del partido con estas metricas temporales.
+
+(entrada) video -> archivo colab -> (salida) video segmentado con homografia y graficas de descripcion del partido de metricas temporales.
+
+Ademas el video propocionado de entrada es uno editado de un partido completo, donde se elimino todo el tiempo muerto (timepo donde no se hacia nada y los robots estaba estaticos, esto por motivos tanto de eficiencia, ya que SAM es un modelo que puede tardar mucho en ser ejecutado.)
 
 ### Importante: Todos estos paths son de nuestro entorno si deseas correrlo te recomendamos usar Google Colab pro y cambiar a los folders que tu desees en tu Google Drive. También es importante mencionar que el video usado fue editado eliminando tiempos muertos y acelerando algunas partes para usar menos recursos de GPU durante la ejecución.
 

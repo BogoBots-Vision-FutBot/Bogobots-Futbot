@@ -82,7 +82,7 @@ Si no hubo overlap se revisa el contacto de bordes, se consigue el borde de cada
 
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Border.png?raw=true" width="600">
 
-### 8. Generción de graficas
+### 8. Generación de graficas
 
 Las ultimas 2 celdas del colab sirven para la generación de graficas, la penultima toma el archivo game_variables y grafica los goles acumuladoes en cada frame, la ultima toma el registro de colisiones generado anteriormente y proyecta los graficos en tres graficas distintas: Una dispersión general de colisiones y dos mapas de calor, uno de overlap y otro de border touch.
 

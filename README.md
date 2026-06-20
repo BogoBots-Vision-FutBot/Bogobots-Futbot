@@ -16,6 +16,9 @@ Video presentación en YouTube
 Video reel Instagram
 [Reel Instagram](https://www.instagram.com/reel/DZyGJA5vwcA/?igsh=ZW5sOTI1amY1dXVy)
 
+Como el video generado por el proyecto tarda mucho tiempo en redenderizarce y es muy pesado para subirlo a GitHub, agregamos un enlace al video en YouTube
+[Video generado](https://www.youtube.com/watch?v=91cZ3BLlDSM)
+
 
 
 ## Enfoque

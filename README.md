@@ -8,9 +8,9 @@
 3. Miguel Bandian Reyes Serrato
 4. Leonardo Gracida Munoz
 
-## Proyecto: Deteccion y narractiva de TrutleBots en un partido de futbol en vivo.
+## Proyecto: Detección y narrativa de TrutleBots en un partido de futbol en vivo.
 
-Video presentacion en YouTube
+Video presentación en YouTube
 [Video presentacion en YouTube](https://www.youtube.com/watch?v=JWTw7fdQiGw)
 
 Video reel Instagram
@@ -19,12 +19,12 @@ Video reel Instagram
 
 
 ## Enfoque
-Nuestro enfoque en nuestra solucion para este reto, consiste en analizar por medio de computer vision los partidos de la **Copa Futbot 2026**, es poder identificar la informacion y acontecimientos mas importantes para un facil seguimiento y analisis del partido, tales como los mencionados en [Outputs](#Outputs).
+Nuestro enfoque en nuestra solución para este reto, consiste en analizar por medio de computer vision los partidos de la **Copa FutbotMX 2026**,  poder identificar la informacion y acontecimientos mas importantes para un facil seguimiento y analisis del partido, tales como los mencionados en [Outputs](#Outputs).
 
 
 ## Arquitectura del proyecto
 
-Nuestro proyecto procesa un video frame por frame para poder identificar todos los inputs que necesitamos para poder regresar todos los outpus mencionados en [Outputs](#Outputs), a continuacion se presenta el pipeline que realiza nuestro proyecto frame por frame.
+Nuestro proyecto procesa un video frame por frame para poder identificar todos los inputs que necesitamos con el proposito de regresar todos los outpus mencionados en [Outputs](#Outputs), a continuación se presenta el pipeline que realiza nuestro proyecto frame por frame.
 
 
 ### Pipeline
@@ -32,7 +32,7 @@ Nuestro proyecto procesa un video frame por frame para poder identificar todos l
 #### Pipeline general del proyecto:
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Pipeline%20Principal%20de%20Procesamiento.png?raw=true" width="200">
 
-A continuacion se presentan las subdivisiones del pipeline para mayor entendimiento y explicacion.
+A continuación se presentan las subdivisiones del pipeline para mayor entendimiento y explicación.
 
 ### 1. Transposición de frame
 

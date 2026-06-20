@@ -61,7 +61,7 @@ Para las porterias simplemente usamos el prompt "yellow rectangle" y "blue recta
 
 ### Grafica goles durante el partido del video usado por equipo detectado por el codigo
 
-<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/penaltis_example_final.gif?raw=true" width=75%>
+<img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/penaltis_ejemplos.gif?raw=true">
 
 ### 6. Generacion de mapa tactico
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Generaci%C3%B3n%20de%20Mapa%20T%C3%A1ctico.png?raw=true" width="300">
@@ -82,7 +82,7 @@ Si no hubo overlap se revisa el contacto de bordes, se consigue el borde de cada
 
 <img src="https://github.com/BogoBots-Vision-FutBot/Bogobots-Futbot/blob/main/images/Border.png?raw=true" width="600">
 
-### 8. Generación de graficas
+### 8. Generción de graficas
 
 Las ultimas 2 celdas del colab sirven para la generación de graficas, la penultima toma el archivo game_variables y grafica los goles acumuladoes en cada frame, la ultima toma el registro de colisiones generado anteriormente y proyecta los graficos en tres graficas distintas: Una dispersión general de colisiones y dos mapas de calor, uno de overlap y otro de border touch.
 
@@ -172,7 +172,7 @@ En el panel izquierdo de Colab ve a:
 Archivos -- /content/drive/MyDrive/BOGOBOTS_v3.ipynb
 Haz doble clic para abrirlo.
 
-### El repositorio contiene el archivo de colab usado (BOGOBOTS_v3).
+### El repositorio contiene el archivo de colab usado (BOGOBOTS_v3.ipynb).
 Aunquesea aqui esta el link al colab:
 [BOGOBOTS_V3](https://colab.research.google.com/drive/1T-l5v0uGgNeDXuKNAFVvsSOoccASOFLg?usp=sharing)
 
